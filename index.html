@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/database.js"></script>
+    <script defer src="js/index.js"></script>
+    <title>Weartake</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title"><a href="#">Weartake</a></h1>
+        <nav>
+            <ul class="header-list">
+                <li class="header-section"><a class="anchor-all" href="#todos">Todos</a></li>
+                <li class="header-section"><a class="header-anchor" href="#acessorios">Acessórios</a></li>
+                <li class="header-section"><a class="header-anchor" href="#calcados">Calçados</a></li>
+                <li class="header-section"><a class="header-anchor" href="#camisetas">Camisetas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="container-section"></section>
+        <aside class="cart">
+            <form class="search">
+                <input type="text" name="search" id="search-input" placeholder="Digite aqui sua pesquisa" required>
+                <button type="submit" id="search-button">Pesquisar</button>
+            </form>
+            <section class="aside-section">
+                <h2 class="cart-name">Carrinho de compras</h2>
+                <ul class="cart-list"></ul>
+                <div class="cart-footer">
+                    <div class="cart-quantity">
+                        <span class="footer-title">Quantidade:</span>
+                        <span class="footer-number"></span>
+                    </div>
+                    <div class="cart-total">
+                        <span class="footer-title">Total:</span>
+                        <span class="footer-price"></span>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </main>
+</body>
+
+</html>
