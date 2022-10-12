@@ -1,4 +1,6 @@
-# E-commerce => Projeto de conclusão do Módulo 1 da Kenzie Academy.
+# E-commerce
+
+Projeto de conclusão do Módulo 1 da Kenzie Academy.
 
 Projeto: https://e-commerce-fxc1j6p5k-winniebran.vercel.app/
 
